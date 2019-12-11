@@ -10,7 +10,7 @@ add it in the "services" section of your docker-compose.yml file
 services:
 
     php-fpm:
-      image: buonzz/laravel-php-fpm
+      image: marufeg/laravel-php-fpm
       volumes:
         - ./:/var/www
       expose:
